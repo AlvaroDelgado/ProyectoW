@@ -1,0 +1,44 @@
+#header{
+    background-color: rgb(189, 105, 105);
+}
+.navEnlaces1{
+    color:white;
+}
+.navEnlaces2{
+    color:rgb(0, 0, 0);
+}
+h1{
+    padding-top : 20px;
+    padding-left: 100px;
+}
+.nav{
+    padding-top : 30px;
+    padding-left : 200px;
+}
+.formulario{
+    padding: 20px;
+}
+#tabla{
+    padding-left: 50px;    
+}
+
+/* Cosas de lo de alejandro */
+.imagen{
+    width: 650px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.letra{
+    text-shadow: 5px 5px 5px #aaa;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.letra2{
+    text-shadow: 5px 5px 5px #aaa;
+    padding-top: 25px;
+    padding-left: 300px;
+}
+.letra3{
+    padding-left: 250px;
+}

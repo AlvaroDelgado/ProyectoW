@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/todo.css"/>
+</head>
+<body>
+    <div class="row" id="header">
+      <div class="col-6">
+        <h1><i class="fab fa-vuejs"></i>MOTOS Y COCHES</h1>
+      </div>
+      <div class="col-6">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link navEnlaces1" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navEnlaces1" data-toggle="dropdown" href="#">Vehículos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item navEnlaces2" href="tablaCoche.html">Coches</a>
+              <a class="dropdown-item navEnlaces2" href="tablaMoto.html">Motos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navEnlaces1" href="Formulario.html">Formulario
+              de ingreso</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-row formulario">
+      <div class="col-md-6 formulario">
+        <form>
+          <div class="form-row">
+            <div class="col-md-5">
+              <label>Nombre: </label>
+              <input type="text" class="form-control" name="nombre" />
+            </div>
+            <div class="col-md-7">
+              <label>Apellidos: </label>
+              <input type="text" class="form-control" name="nombre" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Correo electrónico</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Ej. perritocaliente@noway.com">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Introducir contraseña">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Ej. Calle Estupendo Maravilloso nº221">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Localidad</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Ej. Loeches">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label>Edad</label>
+              <input type="number" class="form-control" min="18" max="100" name="edad" />
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">Estado</label>
+              <select id="inputState" class="form-control">
+                <option selected>Casado</option>
+                <option>Divorciado</option>
+                <option>Viudo</option>
+                <option>Soltero/Feliz</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Disposición a vender tu alma al diablo a cambio de una moto
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Vender definitivamente</button>
+      </div>
+      <div class="co-md-6 formulario">
+        <img src="imagenes/moto.jpg" width="600px" height="500px">
+      </div>
+      </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
